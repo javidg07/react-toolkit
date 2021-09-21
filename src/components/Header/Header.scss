@@ -50,9 +50,13 @@
     }
     .header{
         padding:0 1rem;   
+        z-index: 10;
     }
     .logo{
         font-size: 1rem;
        
+    }
+    .searchBar{
+        width: 100%;
     }
 }
