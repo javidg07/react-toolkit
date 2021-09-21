@@ -1,12 +1,12 @@
 @import "../../common/colors.scss";
 
-.movie_container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
-    gap:2rem;
-    padding: 2rem 0;
+// .movie_container{
+//     display: grid;
+//     grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+//     gap:2rem;
+//     padding: 2rem 0;
    
-}
+// }
 .movie_list{
    padding:2rem;
    margin-top: 5rem;

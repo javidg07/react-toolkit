@@ -9,8 +9,10 @@ export default function Home() {
 
  const dispatch = useDispatch();
     useEffect(() => {
-    dispatch(fetchAsyncMovies());
-    dispatch(fetchAsyncShows());
+        const movieSearch ='Harry';
+        const seriesSearch ='Friends';
+    dispatch(fetchAsyncMovies(movieSearch));
+    dispatch(fetchAsyncShows(seriesSearch));
     }, [dispatch])
     return (
        <div className="banner_img">
